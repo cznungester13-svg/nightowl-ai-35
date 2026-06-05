@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NightOwl - "Unpaid invoices, missed leads in your inbox, and scheduling delays cost you money. Nightowl is the AI agent that ensures your business never loses money by plugging those leaks."</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/theme.css">
+</head>
+<body>
+  <section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">AI OPERATIONS AGENT</div>
+    <h1>Your business<br><span class="gradient-text">never sleeps.</span></h1>
+    <p class="hero-sub">NightOwl is an AI agent that handles customer inquiries, follows up on invoices, schedules appointments, and delivers daily briefings. It works 24/7 so you don't have to.</p>
+    <div class="hero-cta" style="display:flex;align-items:center;justify-content:center;gap:1rem;margin-bottom:2.5rem;flex-wrap:wrap;">
+      <a href="/dashboard" class="cta-btn cta-primary">Open Inbox →</a>
+      <a href="#features" class="cta-btn cta-ghost">See how it works</a>
+      <button class="cta-btn cta-ghost" data-modal="contact" style="background:var(--accent-glow);border-color:rgba(245,158,11,0.3);color:var(--accent-bright);">Talk to us</button>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num">24/7</span>
+        <span class="stat-label">Always on</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">5min</span>
+        <span class="stat-label">Avg response</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">0</span>
+        <span class="stat-label">Missed follow-ups</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-glow"></div>
+</section>
+  <section class="pricing" id="pricing">
+  <div class="pricing-inner">
+
+    <div class="section-label">PRICING</div>
+    <h2 class="pricing-headline">Simple. Honest. <span class="gradient-text">$20/month.</span></h2>
+
+    <div class="pricing-card">
+      <div class="pricing-price-row">
+        <span class="pricing-currency">$</span>
+        <span class="pricing-amount">20</span>
+        <span class="pricing-period">/ month</span>
+      </div>
+
+      <div class="pricing-launch-badge">
+        <span class="launch-icon">&#9733;</span>
+        Launch offer: 25% of your subscription goes to our local SBA partner — for the first 6 months
+      </div>
+
+      <div class="pricing-value-section">
+        <div class="section-label" style="margin-bottom: 0.75rem;">WHY $20?</div>
+        <ul class="pricing-value-list">
+          <li>
+            <span class="value-icon">&#10003;</span>
+            <span>One less hourly hire to manage</span>
+          </li>
+          <li>
+            <span class="value-icon">&#10003;</span>
+            <span>Never miss a follow-up or inquiry</span>
+          </li>
+          <li>
+            <span class="value-icon">&#10003;</span>
+            <span>24/7 coverage — no sick days, no weekends</span>
+          </li>
+          <li>
+            <span class="value-icon">&#10003;</span>
+            <span>AI that improves as it works</span>
+          </li>
+          <li>
+            <span class="value-icon">&#10003;</span>
+            <span>Setup in under 5 minutes</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pricing-charity-row">
+        <div class="charity-icon">&#9781;</div>
+        <div class="charity-text">
+          <strong>Do well by doing good.</strong> During your launch period, 25% of your $20 funds our verified local SBA partner — a program that directly supports Fort Wayne and New Haven small business owners. That's not charity marketing. That's just what we do.
+        </div>
+      </div>
+
+      <div class="pricing-cta-row">
+        <a href="/dashboard" class="cta-btn cta-primary cta-large">Get Started &rarr;</a>
+        <button class="cta-btn cta-ghost cta-large" data-modal="contact">Talk to us</button>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+  <section class="features" id="features">
+  <div class="features-inner">
+    <div class="section-label">WHAT NIGHTOWL DOES</div>
+    <h2>An employee that never clocks out</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="feature-icon">&#9993;</div>
+        <h3>Email Triage</h3>
+        <p>Reads every incoming email, drafts responses, flags urgent items, and handles routine replies autonomously. Your inbox stays at zero.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">&#128176;</div>
+        <h3>Invoice Follow-ups</h3>
+        <p>Tracks unpaid invoices and sends polite, persistent reminders on schedule. No more awkward "just checking in" emails from you.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">&#128197;</div>
+        <h3>Smart Scheduling</h3>
+        <p>Coordinates meetings, sends confirmations, handles reschedules, and eliminates the back-and-forth that eats your day.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">&#9728;</div>
+        <h3>Morning Briefings</h3>
+        <p>Wake up to a summary of everything that happened overnight. New leads, payments received, appointments confirmed, issues flagged.</p>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="how">
+  <div class="how-inner">
+    <div class="section-label">HOW IT WORKS</div>
+    <h2>Hire NightOwl in minutes</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">01</div>
+        <div class="step-content">
+          <h3>Connect your tools</h3>
+          <p>Link your email, calendar, and invoicing platform. NightOwl learns your business context and communication style.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">02</div>
+        <div class="step-content">
+          <h3>Set your rules</h3>
+          <p>Define what gets auto-handled vs. escalated. Customize tone, response templates, and working hours preferences.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">03</div>
+        <div class="step-content">
+          <h3>Let it run</h3>
+          <p>NightOwl starts working immediately. It handles the operational grind while you focus on what actually grows your business.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="closing">
+  <div class="closing-inner">
+    <div class="closing-glow"></div>
+    <h2>Small businesses shouldn't need<br>big teams to run smoothly.</h2>
+    <p class="closing-sub">NightOwl replaces the operations hire you can't afford yet with an AI agent that's better, faster, and always available. Your business deserves to run like a machine, even when you're not watching.</p>
+  </div>
+</section>
+
+  <!-- Lead capture section — inline form below the closing -->
+  <section class="lead-section" id="contact">
+    <div class="lead-section-inner">
+      <div class="section-label">CONTACT</div>
+      <h2>Have questions<span class="gradient-text">?</span></h2>
+      <p>Not sure NightOwl is right for you? Tell us what keeps you up at night — we'll help you figure it out.</p>
+      <div id="inline-success" class="inline-success" style="display:none;">
+        <strong>&#10003; Message sent.</strong> We'll be in touch within 24 hours.
+      </div>
+      <form id="inline-lead-form" class="inline-lead-form" novalidate>
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your name" required autocomplete="name">
+          <input type="email" name="email" placeholder="Your email" required autocomplete="email">
+        </div>
+        <input type="text" name="business_name" placeholder="Business name (optional)" autocomplete="organization">
+        <textarea name="pain_point" placeholder="What's your biggest admin headache?" rows="2" maxlength="400"></textarea>
+        <div class="inline-form-error" id="inline-form-error"></div>
+        <button type="submit" class="inline-submit" id="inline-submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">NightOwl</div>
+    <div class="footer-email">
+      <a href="mailto:nightowl-ai-35@polsia.com">nightowl-100.polsia.app</a>
+    </div>
+    <div class="footer-tagline">Built by Polsia. Autonomous from day one.</div>
+  </div>
+</footer>
+  <!-- Contact form modal — triggered by "Get Started" CTA -->
+<div id="contact-modal" class="modal-overlay" style="display:none;">
+  <div class="modal-backdrop"></div>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+
+    <div class="modal-header">
+      <div class="section-label">GET STARTED</div>
+      <h2 id="modal-title" class="modal-title">Talk to us<span class="gradient-text">.</span></h2>
+      <p class="modal-sub">We'll be in touch within 24 hours. Or reach us anytime at <a href="mailto:nightowl-ai-35@polsia.app">https://nightowl-ai-35@polsia.app</a></p>
+    </div>
+
+    <form id="lead-form" class="lead-form" novalidate>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="lf-name">Name <span class="req">*</span></label>
+          <input type="text" id="lf-name" name="name" placeholder="Jane Smith" required autocomplete="name">
+          <span class="field-error" id="err-name"></span>
+        </div>
+        <div class="form-group">
+          <label for="lf-email">Email <span class="req">*</span></label>
+          <input type="email" id="lf-email" name="email" placeholder="jane@company.com" required autocomplete="email">
+          <span class="field-error" id="err-email"></span>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="lf-business">Business name <span class="optional">optional</span></label>
+        <input type="text" id="lf-business" name="business_name" placeholder="Acme Corp" autocomplete="organization">
+      </div>
+
+      <div class="form-group">
+        <label for="lf-pain">What's your biggest admin headache? <span class="optional">optional</span></label>
+        <textarea id="lf-pain" name="pain_point" placeholder="Invoices piling up, follow-ups slipping, scheduling chaos…" rows="3" maxlength="400"></textarea>
+        <span class="char-count"><span id="pain-count">0</span>/400</span>
+      </div>
+
+      <div class="form-error" id="form-error" style="display:none;"></div>
+
+      <button type="submit" class="cta-btn cta-primary cta-large form-submit" id="lf-submit">
+        Send Message
+      </button>
+    </form>
+
+    <!-- Success state -->
+    <div id="lead-success" class="lead-success" style="display:none;">
+      <div class="success-icon">&#10003;</div>
+      <h3>Message sent.</h3>
+      <p>We'll be in touch within 24 hours.</p>
+    </div>
+  </div>
+</div>
+
+<style>
+/* ─── Contact Form Modal ─── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 10, 15, 0.85);
+  backdrop-filter: blur(6px);
+}
+
+.modal-box {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 2.5rem 2rem 2rem;
+  width: 100%;
+  max-width: 520px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 24px 80px rgba(0,0,0,0.5), 0 0 60px var(--accent-glow);
+  animation: modal-in 0.2s ease-out;
+}
+
+@keyframes modal-in {
+  from { opacity: 0; transform: scale(0.96) translateY(8px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.modal-close {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  color: var(--fg-muted);
+  font-size: 1.4rem;
+  line-height: 1;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-close:hover { color: var(--fg); border-color: var(--fg-dim); }
+
+.modal-header { margin-bottom: 1.75rem; }
+
+.modal-title {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.modal-sub {
+  font-size: 0.9rem;
+  color: var(--fg-muted);
+  line-height: 1.6;
+}
+
+.modal-sub a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.modal-sub a:hover { color: var(--accent-bright); }
+
+/* Form */
+.lead-form { display: flex; flex-direction: column; gap: 1rem; }
+
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+
+.form-group { display: flex; flex-direction: column; gap: 0.4rem; }
+
+.form-group label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--fg-muted);
+}
+
+.req { color: var(--accent); }
+.optional { color: var(--fg-dim); font-size: 0.75rem; font-weight: 400; }
+
+.form-group input,
+.form-group textarea {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.7rem 0.9rem;
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  outline: none;
+  resize: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder { color: var(--fg-dim); }
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: rgba(245, 158, 11, 0.5);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
+.form-group input.error,
+.form-group textarea.error {
+  border-color: #ef4444;
+}
+
+.field-error {
+  font-size: 0.8rem;
+  color: #ef4444;
+  min-height: 1rem;
+}
+
+.char-count {
+  font-size: 0.75rem;
+  color: var(--fg-dim);
+  text-align: right;
+  margin-top: 0.2rem;
+}
+
+.form-error {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 8px;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.85rem;
+  color: #fca5a5;
+}
+
+.form-submit {
+  width: 100%;
+  margin-top: 0.5rem;
+  justify-content: center;
+}
+
+.form-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* Success */
+.lead-success {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.success-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(34, 197, 94, 0.15);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  color: #22c55e;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+}
+
+.lead-success h3 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.lead-success p {
+  color: var(--fg-muted);
+  font-size: 0.95rem;
+}
+
+/* ─── Inline lead section (below pricing) ─── */
+.lead-section {
+  padding: 4rem 2rem 6rem;
+  text-align: center;
+}
+
+.lead-section-inner { max-width: 520px; margin: 0 auto; }
+
+.lead-section h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.75rem;
+}
+
+.lead-section p {
+  color: var(--fg-muted);
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.inline-lead-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.inline-lead-form .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.inline-lead-form input,
+.inline-lead-form textarea {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.7rem 0.9rem;
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  width: 100%;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  outline: none;
+  resize: none;
+}
+
+.inline-lead-form input::placeholder,
+.inline-lead-form textarea::placeholder { color: var(--fg-dim); }
+
+.inline-lead-form input:focus,
+.inline-lead-form textarea:focus {
+  border-color: rgba(245, 158, 11, 0.5);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
+.inline-form-error {
+  font-size: 0.8rem;
+  color: #ef4444;
+  min-height: 1.2rem;
+}
+
+.inline-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: var(--accent);
+  color: #0a0a0f;
+  border: none;
+  border-radius: 10px;
+  padding: 0.85rem 2rem;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.inline-submit:hover { opacity: 0.88; transform: translateY(-1px); }
+.inline-submit:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.inline-success {
+  display: none;
+  background: var(--surface);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  color: var(--fg);
+}
+
+.inline-success strong { color: #22c55e; }
+
+@media (max-width: 500px) {
+  .form-row { grid-template-columns: 1fr; }
+  .inline-lead-form .form-row { grid-template-columns: 1fr; }
+}
+</style>
+
+<script>
+(function() {
+  var modal = document.getElementById('contact-modal');
+  var backdrop = modal ? modal.querySelector('.modal-backdrop') : null;
+  var closeBtn = document.getElementById('modal-close');
+  var form = document.getElementById('lead-form');
+  var submitBtn = document.getElementById('lf-submit');
+  var successDiv = document.getElementById('lead-success');
+  var painTA = document.getElementById('lf-pain');
+  var painCount = document.getElementById('pain-count');
+
+  // Open modal
+  document.querySelectorAll('[data-modal="contact"]').forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      modal.style.display = 'flex';
+      document.getElementById('lf-name').focus();
+    });
+  });
+
+  // Close handlers
+  function closeModal() {
+    modal.style.display = 'none';
+  }
+  closeBtn && closeBtn.addEventListener('click', closeModal);
+  backdrop && backdrop.addEventListener('click', closeModal);
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && modal.style.display !== 'none') closeModal();
+  });
+
+  // Pain point char counter
+  painTA && painTA.addEventListener('input', function() {
+    painCount.textContent = painTA.value.length;
+  });
+
+  function showFieldError(id, msg) {
+    var el = document.getElementById('err-' + id);
+    var input = document.getElementById('lf-' + id);
+    if (el) el.textContent = msg || '';
+    if (input) input.classList.toggle('error', !!msg);
+  }
+
+  function clearErrors() {
+    showFieldError('name', '');
+    showFieldError('email', '');
+    document.getElementById('form-error').style.display = 'none';
+  }
+
+  // Submit
+  form && form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    clearErrors();
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending…';
+
+    var data = {
+      name: form.name.value.trim(),
+      email: form.email.value.trim(),
+      business_name: form.business_name.value.trim() || undefined,
+      pain_point: form.pain_point.value.trim() || undefined,
+    };
+
+    // Client-side validation
+    var ok = true;
+    if (!data.name) { showFieldError('name', 'Name is required'); ok = false; }
+    if (!data.email || !/@/.test(data.email)) { showFieldError('email', 'Valid email is required'); ok = false; }
+    if (!ok) {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Send Message';
+      return;
+    }
+
+    try {
+      var res = await fetch('/api/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      var json = await res.json();
+      if (json.success) {
+        form.style.display = 'none';
+        successDiv.style.display = 'block';
+      } else {
+        var err = document.getElementById('form-error');
+        err.textContent = json.error || 'Something went wrong. Please try again.';
+        err.style.display = 'block';
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Send Message';
+      }
+    } catch {
+      var err = document.getElementById('form-error');
+      err.textContent = 'Network error. Please check your connection and try again.';
+      err.style.display = 'block';
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Send Message';
+    }
+  });
+
+  // Inline section form
+  var inlineForm = document.getElementById('inline-lead-form');
+  var inlineSubmit = document.getElementById('inline-submit');
+  var inlineSuccess = document.getElementById('inline-success');
+
+  inlineForm && inlineSubmit && inlineForm.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    var data = {
+      name: inlineForm.name.value.trim(),
+      email: inlineForm.email.value.trim(),
+      business_name: inlineForm.business_name ? inlineForm.business_name.value.trim() : undefined,
+      pain_point: inlineForm.pain_point ? inlineForm.pain_point.value.trim() : undefined,
+    };
+    inlineSubmit.disabled = true;
+    inlineSubmit.textContent = 'Sending…';
+    try {
+      var res = await fetch('/api/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      var json = await res.json();
+      if (json.success) {
+        inlineForm.style.display = 'none';
+        inlineSuccess.style.display = 'block';
+      } else {
+        inlineSubmit.disabled = false;
+        inlineSubmit.textContent = 'Send Message';
+      }
+    } catch {
+      inlineSubmit.disabled = false;
+      inlineSubmit.textContent = 'Send Message';
+    }
+  });
+})();
+</script>
+  <!-- Polsia Analytics --><script>(function(){var slug="nightowl-ai-35";if(!slug)return;var vid=localStorage.getItem('polsia_vid');if(!vid){vid='xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,function(c){var r=Math.random()*16|0;return (c==='x'?r:(r&0x3|0x8)).toString(16);});localStorage.setItem('polsia_vid',vid);}new Image().src='https://polsia.com/api/beacon/pixel?s='+encodeURIComponent(slug)+'&v='+encodeURIComponent(vid);})();</script>
+<script>
+(function(){
+  // Fire pageview on load (non-blocking beacon)
+  var xhr = new XMLHttpRequest();
+  xhr.open('POST', '/api/pageview', true);
+  xhr.setRequestHeader('Content-Type', 'application/json');
+  xhr.send(JSON.stringify({ path: location.pathname, referrer: document.referrer || null }));
+
+  // Expose CTA click tracker for use: onclick="trackEvent('cta_click', {target:'hero_email'})"
+  window.trackEvent = function(type, data) {
+    try {
+      var r = new XMLHttpRequest();
+      r.open('POST', '/api/event', true);
+      r.setRequestHeader('Content-Type', 'application/json');
+      r.send(JSON.stringify({ event_type: type, event_data: data || {}, referrer: document.referrer || null }));
+    } catch(e) {}
+  };
+})();
+</script>
+</body>
+</html>
